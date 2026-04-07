@@ -1,6 +1,6 @@
 import { XMLParser } from 'fast-xml-parser'
-import { resolveFilePath } from '../util.js'
-import type { CoverageData } from './types.js'
+import { resolveFilePath } from '../util'
+import type { CoverageData } from './types'
 
 function asArray<T>(val: T | T[] | undefined): T[] {
   if (val === undefined || val === null) return []

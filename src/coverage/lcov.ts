@@ -1,5 +1,5 @@
-import { resolveFilePath } from '../util.js'
-import type { CoverageData } from './types.js'
+import { resolveFilePath } from '../util'
+import type { CoverageData } from './types'
 
 /**
  * Parse LCOV format coverage data.

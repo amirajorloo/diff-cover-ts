@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import { Command } from 'commander'
-import { runDiffCover } from '../core/diff-cover.js'
-import { writeReports } from '../reports/index.js'
-import { addSharedOptions, resolveOptions } from './shared.js'
-import type { DiffCoverOptions } from '../types.js'
+import { runDiffCover } from '../core/diff-cover'
+import { writeReports } from '../reports/index'
+import { addSharedOptions, resolveOptions } from './shared'
+import type { DiffCoverOptions } from '../types'
 
 const program = new Command('diff-cover')
   .description(

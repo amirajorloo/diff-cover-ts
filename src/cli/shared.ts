@@ -1,6 +1,6 @@
 import { Command } from 'commander'
-import type { OutputFormat, SharedOptions } from '../types.js'
-import { loadConfig } from './config.js'
+import type { OutputFormat, SharedOptions } from '../types'
+import { loadConfig } from './config'
 
 /** Parse a --format value like "html:report.html" into OutputFormat */
 function parseFormatArg(value: string): OutputFormat {

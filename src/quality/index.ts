@@ -1,7 +1,7 @@
-import { eslintDriver } from './eslint.js'
-import { genericDriver } from './generic.js'
-import { stylelintDriver } from './stylelint.js'
-import type { QualityDriver } from './types.js'
+import { eslintDriver } from './eslint'
+import { genericDriver } from './generic'
+import { stylelintDriver } from './stylelint'
+import type { QualityDriver } from './types'
 
 const drivers: Record<string, QualityDriver> = {
   eslint: eslintDriver,
@@ -19,4 +19,4 @@ export function getQualityDriver(name: string): QualityDriver {
   return drivers[name] ?? genericDriver
 }
 
-export type { QualityDriver } from './types.js'
+export type { QualityDriver } from './types'

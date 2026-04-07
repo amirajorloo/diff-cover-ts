@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
-import { getChangedFiles } from '../git/diff-parser.js'
-import { getQualityDriver } from '../quality/index.js'
-import type { DiffQualityOptions, FileReport, ReportData, Violation } from '../types.js'
+import { getChangedFiles } from '../git/diff-parser'
+import { getQualityDriver } from '../quality/index'
+import type { DiffQualityOptions, FileReport, ReportData, Violation } from '../types'
 
 /**
  * Orchestrate a diff-quality run:

@@ -1,14 +1,14 @@
 import { writeFileSync } from 'node:fs'
-import type { ReportData, OutputFormat } from '../types.js'
-import { generateConsoleReport } from './console.js'
-import { generateHtmlReport } from './html.js'
-import { generateJsonReport } from './json.js'
-import { generateMarkdownReport } from './markdown.js'
+import type { ReportData, OutputFormat } from '../types'
+import { generateConsoleReport } from './console'
+import { generateHtmlReport } from './html'
+import { generateJsonReport } from './json'
+import { generateMarkdownReport } from './markdown'
 
-export { generateConsoleReport } from './console.js'
-export { generateHtmlReport } from './html.js'
-export { generateJsonReport } from './json.js'
-export { generateMarkdownReport } from './markdown.js'
+export { generateConsoleReport } from './console'
+export { generateHtmlReport } from './html'
+export { generateJsonReport } from './json'
+export { generateMarkdownReport } from './markdown'
 
 const generators: Record<OutputFormat['type'], (data: ReportData) => string> = {
   console: generateConsoleReport,

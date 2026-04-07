@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getQualityDriver } from '../quality/index.js'
+import { getQualityDriver } from '../quality/index'
 
 describe('ESLint driver', () => {
   it('parses compact format output', () => {

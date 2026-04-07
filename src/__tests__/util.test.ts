@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { toUnixPath, groupConsecutiveLines, resolveFilePath } from '../util.js'
+import { toUnixPath, groupConsecutiveLines, resolveFilePath } from '../util'
 
 describe('toUnixPath', () => {
   it('converts backslashes to forward slashes', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { parseUnifiedDiff } from '../git/diff-parser.js'
+import { parseUnifiedDiff } from '../git/diff-parser'
 
 describe('parseUnifiedDiff', () => {
   it('parses added files with line ranges', () => {

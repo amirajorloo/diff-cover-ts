@@ -1,4 +1,4 @@
-import type { ReportData } from '../types.js'
+import type { ReportData } from '../types'
 
 /**
  * Render a ReportData as a JSON string.

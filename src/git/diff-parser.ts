@@ -1,5 +1,5 @@
-import type { FileDiff } from '../types.js'
-import { toUnixPath, executeCommand } from '../util.js'
+import type { FileDiff } from '../types'
+import { toUnixPath, executeCommand } from '../util'
 
 /**
  * Convert a simple glob pattern to a RegExp.

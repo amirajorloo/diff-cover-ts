@@ -1,6 +1,6 @@
-import type { Violation } from '../types.js'
-import { toUnixPath } from '../util.js'
-import type { QualityDriver } from './types.js'
+import type { Violation } from '../types'
+import { toUnixPath } from '../util'
+import type { QualityDriver } from './types'
 
 /** Generic output line: "file:line[:col] message" */
 const LINE_RE = /^(.+?):(\d+)(?::\d+)?[:\s]+(.+)$/

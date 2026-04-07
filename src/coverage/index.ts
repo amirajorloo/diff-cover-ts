@@ -1,11 +1,11 @@
 import { readFileSync } from 'node:fs'
-import { parseClover } from './clover.js'
-import { parseCobertura } from './cobertura.js'
-import { parseJacoco } from './jacoco.js'
-import { parseLcov } from './lcov.js'
-import type { CoverageData } from './types.js'
+import { parseClover } from './clover'
+import { parseCobertura } from './cobertura'
+import { parseJacoco } from './jacoco'
+import { parseLcov } from './lcov'
+import type { CoverageData } from './types'
 
-export type { CoverageData } from './types.js'
+export type { CoverageData } from './types'
 
 /**
  * Auto-detect the coverage format and parse the file.

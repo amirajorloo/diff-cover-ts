@@ -1,6 +1,6 @@
 import chalk from 'chalk'
-import type { ReportData } from '../types.js'
-import { groupConsecutiveLines } from '../util.js'
+import type { ReportData } from '../types'
+import { groupConsecutiveLines } from '../util'
 
 /**
  * Render a ReportData as a coloured console string.

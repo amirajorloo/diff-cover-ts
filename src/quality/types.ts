@@ -1,4 +1,4 @@
-import type { Violation } from '../types.js'
+import type { Violation } from '../types'
 
 /**
  * Interface that every quality driver must implement.

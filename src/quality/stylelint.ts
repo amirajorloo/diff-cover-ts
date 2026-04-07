@@ -1,6 +1,6 @@
-import type { Violation } from '../types.js'
-import { executeCommand, toUnixPath } from '../util.js'
-import type { QualityDriver } from './types.js'
+import type { Violation } from '../types'
+import { executeCommand, toUnixPath } from '../util'
+import type { QualityDriver } from './types'
 
 /** Compact Stylelint output line: "path/to/file.css: line N, col N, message" */
 const LINE_RE = /^(.+): line (\d+), col \d+, (.+)$/

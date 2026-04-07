@@ -1,5 +1,5 @@
-import type { ReportData } from '../types.js'
-import { groupConsecutiveLines } from '../util.js'
+import type { ReportData } from '../types'
+import { groupConsecutiveLines } from '../util'
 
 /**
  * Render a ReportData as a GitHub-flavored Markdown table.

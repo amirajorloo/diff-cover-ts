@@ -1,7 +1,7 @@
-import { getChangedFiles } from '../git/diff-parser.js'
-import { parseCoverageFile, mergeCoverageData } from '../coverage/index.js'
-import { resolveGitRoot } from '../util.js'
-import type { DiffCoverOptions, FileReport, ReportData } from '../types.js'
+import { getChangedFiles } from '../git/diff-parser'
+import { parseCoverageFile, mergeCoverageData } from '../coverage/index'
+import { resolveGitRoot } from '../util'
+import type { DiffCoverOptions, FileReport, ReportData } from '../types'
 
 /**
  * Orchestrate a diff-cover run:

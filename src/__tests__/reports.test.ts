@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
-import { generateJsonReport } from '../reports/json.js'
-import { generateMarkdownReport } from '../reports/markdown.js'
-import type { ReportData } from '../types.js'
+import { generateJsonReport } from '../reports/json'
+import { generateMarkdownReport } from '../reports/markdown'
+import type { ReportData } from '../types'
 
 const sampleReport: ReportData = {
   diffName: 'origin/main...HEAD',

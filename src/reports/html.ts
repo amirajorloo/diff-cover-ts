@@ -1,5 +1,5 @@
-import type { ReportData } from '../types.js'
-import { groupConsecutiveLines } from '../util.js'
+import type { ReportData } from '../types'
+import { groupConsecutiveLines } from '../util'
 
 /** Map a coverage percentage to a traffic-light colour for HTML display */
 function coverageColor(pct: number | null): string {

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import { Command } from 'commander'
-import { runDiffQuality } from '../core/diff-quality.js'
-import { writeReports } from '../reports/index.js'
-import { addSharedOptions, resolveOptions } from './shared.js'
-import type { DiffQualityOptions } from '../types.js'
+import { runDiffQuality } from '../core/diff-quality'
+import { writeReports } from '../reports/index'
+import { addSharedOptions, resolveOptions } from './shared'
+import type { DiffQualityOptions } from '../types'
 
 const program = new Command('diff-quality')
   .description(

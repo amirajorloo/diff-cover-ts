@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest'
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { parseLcov } from '../coverage/lcov.js'
-import { parseCobertura } from '../coverage/cobertura.js'
-import { parseCoverageFile, mergeCoverageData } from '../coverage/index.js'
+import { parseLcov } from '../coverage/lcov'
+import { parseCobertura } from '../coverage/cobertura'
+import { parseCoverageFile, mergeCoverageData } from '../coverage/index'
 
 const FIXTURES = join(import.meta.dirname, 'fixtures')
 
