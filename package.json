@@ -1,6 +1,6 @@
 {
   "name": "diff-cover-ts",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Find which changed lines lack test coverage or have quality violations",
   "type": "module",
   "bin": {
