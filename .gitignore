@@ -75,6 +75,7 @@ lib-cov
 coverage
 !src/coverage/
 *.lcov
+!src/__tests__/fixtures/*.lcov
 
 # nyc test coverage
 .nyc_output
